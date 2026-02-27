@@ -64,3 +64,13 @@
     background-color: rgb(201, 201, 201)
 }
 
+.cards {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.rodape {
+    background-color: darkgray;
+    border-radius: 10px;
+    margin-top: 150px;
+}
