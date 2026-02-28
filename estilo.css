@@ -1,3 +1,9 @@
+body {
+    background-color: oklch(27.4% 0.006 286.033);
+}
+
+
+
 .perfil {
     width: 250px;
     height: 250px;
@@ -23,7 +29,7 @@
 }
 
 .nome-foto {
-    box-shadow: 2px 2px 7px gray;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
     padding: 15px;
     border-radius: 30px;
     width: 500px;
@@ -32,7 +38,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgb(201, 201, 201)
+    background-color: oklch(70.5% 0.015 286.067);
 }
 
 .p1 {
@@ -41,13 +47,13 @@
 }
 
 .card-info {
-    box-shadow: 2px 2px 7px gray;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
     padding: 15px;
     border-radius:30px;
     width: 300px;
     margin-left: 50px;
     font-size: 20px;
-    background-color: rgb(201, 201, 201)
+    background-color: oklch(70.5% 0.015 286.067);
     
 }
 
@@ -56,21 +62,20 @@
 }
 
 .card-formacao {
-    box-shadow: 2px 2px 7px gray;
+    box-shadow: 2px 2px 7px rgb(0, 0, 0);
     padding: 15px;
     border-radius: 30px;
     width: 300px;
     font-size: 20px;
-    background-color: rgb(201, 201, 201)
+    background-color: oklch(70.5% 0.015 286.067);
 }
 
 .cards {
     display: flex;
-    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .rodape {
-    background-color: darkgray;
-    border-radius: 10px;
-    margin-top: 150px;
+    background-color: oklch(55.2% 0.016 285.938);
 }
+
